@@ -23,17 +23,32 @@
     "header": {
       "type": "component",
       "repeatable": false,
-      "component": "page.header"
+      "component": "page.header",
+      "required": true
     },
     "sectionAbout": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-about"
+      "component": "page.section-about",
+      "required": true
     },
     "sectionTechs": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-techs"
+      "component": "page.section-techs",
+      "required": true
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
+      "required": true
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
     }
   }
 }

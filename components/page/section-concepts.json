@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_concepts",
+  "info": {
+    "name": "sectionConcepts",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "itemConcepts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.item-concepts",
+      "required": true,
+      "min": 1
+    }
+  }
+}

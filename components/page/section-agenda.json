@@ -1,16 +1,13 @@
 {
-  "collectionName": "components_page_card_modules",
+  "collectionName": "components_page_section_agenda",
   "info": {
-    "name": "cardModules",
-    "icon": "align-right"
+    "name": "sectionAgenda",
+    "icon": "calendar-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
-    },
-    "subtitle": {
       "type": "string",
       "required": true
     },

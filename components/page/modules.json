@@ -1,12 +1,17 @@
 {
-  "collectionName": "components_page_section_schedules",
+  "collectionName": "components_page_modules",
   "info": {
-    "name": "sectionSchedule",
-    "icon": "calendar-alt"
+    "name": "modules",
+    "icon": "align-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
       "type": "string",
       "required": true
     },

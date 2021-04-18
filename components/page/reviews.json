@@ -1,12 +1,13 @@
 {
-  "collectionName": "components_page_card_reviews",
+  "collectionName": "components_page_reviews",
   "info": {
-    "name": "cardReviews",
-    "icon": "star-half-alt"
+    "name": "reviews",
+    "icon": "star-half-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "avatar": {
+    "photo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

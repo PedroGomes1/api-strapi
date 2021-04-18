@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_page_item_concepts",
+  "collectionName": "components_page_concepts",
   "info": {
-    "name": "itemConcepts",
-    "icon": "align-center"
+    "name": "concepts",
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {

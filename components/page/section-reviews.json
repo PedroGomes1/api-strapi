@@ -10,10 +10,10 @@
       "type": "string",
       "required": true
     },
-    "cardReviews": {
+    "reviews": {
       "type": "component",
       "repeatable": true,
-      "component": "page.card-reviews",
+      "component": "page.reviews",
       "required": true,
       "min": 4
     }

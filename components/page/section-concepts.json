@@ -11,10 +11,10 @@
       "type": "string",
       "required": true
     },
-    "itemConcepts": {
+    "concepts": {
       "type": "component",
       "repeatable": true,
-      "component": "page.item-concepts",
+      "component": "page.concepts",
       "required": true,
       "min": 1
     }

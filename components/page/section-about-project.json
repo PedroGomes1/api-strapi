@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_page_section_abouts",
+  "collectionName": "components_page_section_about_projects",
   "info": {
-    "name": "sectionAbout",
+    "name": "sectionAboutProject",
     "icon": "info",
     "description": ""
   },

@@ -26,16 +26,16 @@
       "component": "page.header",
       "required": true
     },
-    "sectionAbout": {
+    "sectionAboutProject": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-about",
+      "component": "page.section-about-project",
       "required": true
     },
-    "sectionTechs": {
+    "sectionTech": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-techs",
+      "component": "page.section-tech",
       "required": true
     },
     "sectionConcepts": {
@@ -50,10 +50,10 @@
       "component": "page.section-modules",
       "required": true
     },
-    "sectionSchedule": {
+    "sectionAgenda": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-schedule"
+      "component": "page.section-agenda"
     },
     "pricingBox": {
       "type": "component",

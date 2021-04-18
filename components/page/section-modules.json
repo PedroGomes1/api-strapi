@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_modules",
   "info": {
     "name": "sectionModules",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,10 +11,10 @@
       "type": "string",
       "required": true
     },
-    "cardModules": {
+    "modules": {
       "type": "component",
       "repeatable": true,
-      "component": "page.card-modules",
+      "component": "page.modules",
       "required": true,
       "min": 2
     }

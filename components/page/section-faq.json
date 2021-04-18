@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_faqs",
   "info": {
     "name": "sectionFaq",
-    "icon": "question"
+    "icon": "question",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,10 +11,10 @@
       "type": "string",
       "required": true
     },
-    "cardQuestions": {
+    "questions": {
       "type": "component",
       "repeatable": true,
-      "component": "page.card-questions",
+      "component": "page.questions",
       "min": 2,
       "required": true
     }

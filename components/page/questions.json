@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_page_card_questions",
+  "collectionName": "components_page_questions",
   "info": {
-    "name": "cardQuestions",
-    "icon": "question-circle"
+    "name": "questions",
+    "icon": "question-circle",
+    "description": ""
   },
   "options": {},
   "attributes": {

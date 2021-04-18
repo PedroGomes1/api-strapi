@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "sectionModules",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cardModules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card-modules",
+      "required": true,
+      "min": 2
+    }
+  }
+}

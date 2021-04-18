@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_faqs",
+  "info": {
+    "name": "sectionFaq",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cardQuestions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card-questions",
+      "min": 2,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_techs",
+  "info": {
+    "name": "sectionTechs",
+    "icon": "toolbox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cardTechs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card-techs",
+      "required": true,
+      "min": 5
+    }
+  }
+}

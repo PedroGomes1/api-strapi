@@ -5,4 +5,17 @@
  * to customize this model
  */
 
-module.exports = {};
+const axios = require('axios');
+
+const netlifyWebhook = strapi.config.get("custom.netlifyWebhook")
+
+module.exports = {
+  lifecycles: {
+    async afterCreate() {
+      netlifyWebhook && axios.post(netlifyWebhook)
+    },
+    async afterUpdate() {
+      netlifyWebhook && axios.post(netlifyWebhook)
+    },
+  },
+};
